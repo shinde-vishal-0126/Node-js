@@ -1,7 +1,7 @@
 // What is Stream in node js ?
 // 1. stream are ongoing process in node js
-// 2. Stream are obejct let you  read data from source or write data to a destination in continous fashion.
-// 3. Ex. Streaming means listening Music or watching video in real time insted of Downloading file and watch later
+// 2. Stream are object let you  read data from source or write data to a destination in continuous fashion.
+// 3. Ex. Streaming means listening Music or watching video in real time instead of Downloading file and watch later
             // 4. Four type fo Streaming (4 type):
             // 1. Readable :  stream are used to read operation (read data sequentially)
             // 2. writable :  stream are used to write operation (write data sequentially)
@@ -15,16 +15,16 @@
 
 // IMP :
 // Each type Stream are EventEmitter Instances and throw several event at different instances of Time
-// some commanly used event are
-// 1. data: The event is fire when ther is data is available to read
-// 2. end: The event is fired when ther is no more data to read
-// 3. error: Then event is fired when there is any error receving or wirting data
-// 4. finish: This event is fired when all the data has been flushed to underlaying system
+// some commonly used event are
+// 1. data: The event is fire when there is data is available to read
+// 2. end: The event is fired when there is no more data to read
+// 3. error: Then event is fired when there is any error receiving or writing data
+// 4. finish: This event is fired when all the data has been flushed to underlying system
 
 //Task
 // 1. reading data from stream
 // 2. create readable stream
-// 3 handaled stream events
+// 3 handled stream events
 
 const fs = require("fs");
 const http = require("http");
