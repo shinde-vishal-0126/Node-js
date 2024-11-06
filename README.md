@@ -27,4 +27,10 @@
         -CUSTOMIZING VIEWS DIRECTORY
         - PARTIALS IN EXPRESS.JS
         - 404 DYNAMIC (WHEN PAGE NOT FOUND)
+
+
+    - Project :g
+
+    - MongoDb:
+    - Mongoose:
     
