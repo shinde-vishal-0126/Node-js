@@ -106,8 +106,8 @@ const emp = new mongoose.model("emp", RecordSchema);
 //   }
 // };
 
-// // call the defined function
-// createDcoment();
+// call the defined function
+// createDocument();
 
 // -------------------------------------------------------------------------------------------------
 
@@ -137,7 +137,7 @@ const emp = new mongoose.model("emp", RecordSchema);
 
 //  How to insert multiple document in database :
 // defined function inside that you have insert record and then used save method
-// const createDcoment = async () => {
+// const createDocument = async () => {
 //   try {
 //     const empRecord = new emp({
 //       name: "ajinkaya",
@@ -164,7 +164,7 @@ const emp = new mongoose.model("emp", RecordSchema);
 //       age: 29,
 //     });
 
-//     //   const result = await empRecord.save();
+    //   const result = await empRecord.save();
 
 //     const result = await emp.insertMany([
 //       empRecord,
@@ -179,7 +179,7 @@ const emp = new mongoose.model("emp", RecordSchema);
 // };
 
 // call the defined function
-// createDcoment();
+// createDocument();
 
 // -------------------------------------------------------------------------------------------------
 
