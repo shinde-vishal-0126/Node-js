@@ -7,6 +7,7 @@
 // rest in not programming language.
 
 // A REST API (Representational State Transfer API) is a type of web API that follows a set of architectural principles for communication and interaction between client and server over HTTP.
+
 // REST APIs are designed to be simple, stateless, and scalable, and they are commonly used for web services.
 
 
